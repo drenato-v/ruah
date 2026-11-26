@@ -16,10 +16,11 @@ img/produtos/       fotos dos produtos enviadas pela Ruah (900px)
 img/espaco/         fotos do espaço tiradas do reel da inauguração
 video/              reel da inauguração (sem áudio, 1,3 MB) + capa
 robots.txt, sitemap.xml, llms.txt, llms-full.txt   arquivos para buscadores e IAs
-package.json        comando para gerar o 3D
+Staticfile          diz ao Railway (Railpack) que o site é estático, servido pelo Caddy
+fonte/package.json  comando para gerar o 3D (fica fora da raiz para o deploy não achar que é app Node)
 ```
 
-Para ver no computador: `npm run dev` (ou o Live Server do VS Code). Abrindo o `index.html` direto pelo Finder o site funciona, mas o 3D não aparece (o navegador bloqueia módulos em `file://`) e fica a foto de reserva.
+Para ver no computador: `cd fonte && npm run dev` (ou o Live Server do VS Code). Abrindo o `index.html` direto pelo Finder o site funciona, mas o 3D não aparece (o navegador bloqueia módulos em `file://`) e fica a foto de reserva.
 
 ## Cena 3D do topo
 
@@ -28,6 +29,7 @@ Um bule de inox inclinado derrama um filete contínuo de café na xícara da Rua
 Para mudar a cena, edite `fonte/xicara3d.js` e gere de novo:
 
 ```
+cd fonte
 npm install
 npm run build:3d
 ```

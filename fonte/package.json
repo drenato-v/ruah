@@ -1,0 +1,13 @@
+{
+  "name": "ruah-cafeteria",
+  "private": true,
+  "description": "Ferramentas para gerar a cena 3D do site (não é usado no deploy)",
+  "scripts": {
+    "build:3d": "esbuild xicara3d.js --bundle --format=esm --minify --target=es2020 --legal-comments=none --outfile=../js/xicara3d.js",
+    "dev": "npx --yes serve .."
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "three": "0.170.0"
+  }
+}

@@ -1,0 +1,2 @@
+# Site estático: o Railway (Railpack) serve esta pasta com o Caddy
+root: .
