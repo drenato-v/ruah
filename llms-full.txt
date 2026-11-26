@@ -47,6 +47,7 @@ Os itens abaixo estão no cardápio. Preços dos itens avulsos são informados n
 - Café com chantilly — café quentinho coberto com chantilly e canela
 - Cappuccino — espresso, leite vaporizado e espuma cremosa, com arte no leite
 - Chocolate quente — cremoso, com raspas de chocolate
+- Chá — folhas frescas em infusão no bule de vidro
 
 ### Pra comer
 

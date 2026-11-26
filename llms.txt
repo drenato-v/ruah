@@ -25,7 +25,7 @@ Informações rápidas:
 
 ## Cardápio
 
-- Cafés e bebidas quentes: espresso, café coado, café com chantilly, cappuccino, chocolate quente
+- Cafés e bebidas quentes: espresso, café coado, café com chantilly, cappuccino, chocolate quente, chá
 - Pra comer: pão com requeijão gratinado, pão de queijo, misto quente, pão na chapa com queijo, croissant, salgado assado, bolo do dia (ex.: bolo de cenoura com chocolate)
 - Gelados: cappuccino ice, soda italiana, energético
 

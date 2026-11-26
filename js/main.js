@@ -25,7 +25,8 @@ const CARD=[
   {n:'Café com chantilly',s:'cremoso por cima',d:'Café quentinho coberto com chantilly e uma pitadinha de canela. Docinho na medida.',t:['Com chantilly','Docinho'],img:P+'cafe-com-chantilly.webp',f:['canela','grao','coracao','canela','grao','coracao']},
   {n:'Cappuccino',s:'espuma cremosa',d:'Espresso, leite vaporizado e uma camada de espuma cremosa, com aquele coraçãozinho por cima.',t:['Com arte no leite','Cremoso'],img:'img/cafe.webp',f:['canela','grao','coracao','choco','grao','canela']},
   {n:'Café coado',s:'na xícara',d:'O cafezinho de todo dia, passado na hora e servido bem quente.',t:['Clássico','Quentinho'],img:P+'cafe-coado.webp',f:['grao','folha','grao','coracao','grao','grao']},
-  {n:'Chocolate quente',s:'com raspas de chocolate',d:'Chocolate cremoso e quentinho, finalizado com raspas de chocolate. Abraço em forma de bebida.',t:['Cremoso','Com raspas'],img:P+'chocolate-quente.webp',alto:true,f:['choco','coracao','choco','canela','choco','grao']}
+  {n:'Chocolate quente',s:'com raspas de chocolate',d:'Chocolate cremoso e quentinho, finalizado com raspas de chocolate. Abraço em forma de bebida.',t:['Cremoso','Com raspas'],img:P+'chocolate-quente.webp',alto:true,f:['choco','coracao','choco','canela','choco','grao']},
+  {n:'Chá',s:'no bule de vidro',d:'Folhas frescas em infusão no bule de vidro, servido quentinho na xícara.',t:['Folhas frescas','Quentinho'],img:P+'cha.webp',f:['folha','folha','coracao','folha','folha','grao']}
  ]},
  {id:'comer',titulo:'Pra comer',bg:'#5B1D22',fg:'#F3ECDA',ativo:'#F3ECDA',ativoFg:'#5B1D22',script:'fome',itens:[
   {n:'Pão c/ requeijão',s:'gratinado',d:'Casquinha dourada por cima e requeijão derretendo por dentro. Aquela pedida clássica de quando bate uma fominha.',t:['Gratinado','Não passa pro lado'],img:P+'pao-requeijao-gratinado.webp',f:['queijo','queijo','folha','queijo','grao','queijo']},
