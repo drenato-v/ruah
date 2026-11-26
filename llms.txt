@@ -1,0 +1,35 @@
+# Ruah Cafeteria
+
+> Cafeteria na Av. Arthur Nonato, 4001, Vila Sinibaldi, em São José do Rio Preto (SP), no anexo da Igreja Casa Viva Church. Café passado na hora, bebidas geladas, pão de queijo, lanches na chapa e bolos caseiros. Aberta de terça a domingo, a partir das 8h (fechada às segundas). Combos de pão de queijo mini + café espresso a partir de R$ 9.
+
+Informações rápidas:
+
+- Nome: Ruah Cafeteria ("Ruah" é uma palavra hebraica que significa sopro, fôlego, espírito)
+- Cidade: São José do Rio Preto, SP, Brasil
+- Endereço: Av. Arthur Nonato, 4001 – Vila Sinibaldi, São José do Rio Preto – SP, CEP 15084-000 (anexo da Igreja Casa Viva Church)
+- Horário: terça a domingo, a partir das 8h; segunda-feira fechado
+- Instagram: @ruahcafeteria — https://www.instagram.com/ruahcafeteria/
+- Aberta para todo mundo, não só para quem frequenta a igreja
+- Desde 2026
+
+## Páginas
+
+- [Site da Ruah Cafeteria](https://drenato-v.github.io/ruah/): página única com cardápio, combos, história, horário e localização
+- [Cardápio completo em texto](https://drenato-v.github.io/ruah/llms-full.txt): todos os itens, combos com preços e perguntas frequentes
+
+## Combos Ruah (preços)
+
+- 3 pães de queijo (mini) + 1 café espresso: R$ 9
+- 6 pães de queijo (mini) + 1 café espresso: R$ 15
+- 10 pães de queijo (mini) + 1 café espresso: R$ 20
+
+## Cardápio
+
+- Cafés e bebidas quentes: espresso, café coado, café com chantilly, cappuccino, chocolate quente
+- Pra comer: pão com requeijão gratinado, pão de queijo, misto quente, pão na chapa com queijo, croissant, salgado assado, bolo do dia (ex.: bolo de cenoura com chocolate)
+- Gelados: cappuccino ice, soda italiana, energético
+
+## Opcional
+
+- [Como chegar (Google Maps)](https://www.google.com/maps/search/?api=1&query=Av.+Arthur+Nonato%2C+4001+-+Vila+Sinibaldi%2C+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP%2C+15084-000)
+- [Instagram @ruahcafeteria](https://www.instagram.com/ruahcafeteria/): novidades, bolo do dia e avisos de horário

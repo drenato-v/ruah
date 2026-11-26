@@ -1,0 +1,28 @@
+# Ruah Cafeteria — São José do Rio Preto (SP)
+# Todo o site pode ser lido por buscadores e por assistentes de IA.
+
+User-agent: *
+Allow: /
+
+# Buscadores e assistentes de IA (liberados explicitamente)
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://drenato-v.github.io/ruah/sitemap.xml
