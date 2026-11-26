@@ -102,9 +102,15 @@ new IntersectionObserver(([e])=>{if(e.isIntersecting&&!pausadoPeloUsuario)reel.p
 
 /* ---------- xícara 3D no topo (a foto fica de reserva) ---------- */
 const xBox=document.getElementById('xic3d');
-const temWebGL=(()=>{try{const c=document.createElement('canvas');return !!(window.WebGLRenderingContext&&(c.getContext('webgl2')||c.getContext('webgl')))}catch(e){return false}})();
-if(temWebGL){const carrega=()=>import(new URL('xicara3d.js',SCRIPT_URL).href).then(m=>m.montaXicara(xBox,{logo:'img/logo.webp'})).then(()=>xBox.parentElement.classList.add('tem3d')).catch(()=>{});
-  ('requestIdleCallback' in window)?requestIdleCallback(carrega,{timeout:1500}):setTimeout(carrega,300)}
+if(document.documentElement.classList.contains('com3d')){
+  const hf=xBox.parentElement;let pronto=false;
+  const reserva=()=>{if(!pronto)hf.classList.add('sem3d')};
+  setTimeout(reserva,8000); // conexão muito lenta: mostra a foto
+  import(new URL('xicara3d.js',SCRIPT_URL).href)
+    .then(m=>m.montaXicara(xBox,{logo:'img/logo.webp'}))
+    .then(()=>{pronto=true;hf.classList.remove('sem3d');hf.classList.add('tem3d')})
+    .catch(reserva);
+}
 
 /* ---------- topo ---------- */
 const topo=document.getElementById('topo');const rol=()=>topo.classList.toggle('solid',scrollY>40);addEventListener('scroll',rol,{passive:true});rol();

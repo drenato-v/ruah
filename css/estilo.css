@@ -55,7 +55,12 @@ header.solid{background:rgba(13,36,29,.92);backdrop-filter:blur(10px);box-shadow
 .hero-foto.tem3d .xic3d,.hero-foto.tem3d::before{opacity:1}
 .hero-foto.tem3d .circulo{opacity:0;transform:scale(.9);transition:opacity .6s,transform .6s}
 .hero-foto .selo,.hero-foto .dia{z-index:2}
-.hero-foto.tem3d .dia{bottom:0;left:-8%}
+/* com WebGL: a foto de reserva fica escondida desde o início e o brilho dourado segura o lugar até a xícara 3D aparecer */
+.com3d .hero-foto .circulo{opacity:0;transform:scale(.9);transition:opacity .6s,transform .6s}
+.com3d .hero-foto::before{opacity:1}
+.com3d .hero-foto .dia{bottom:0;left:-8%}
+/* se o 3D falhar ou demorar demais, a foto volta */
+.com3d .hero-foto.sem3d .circulo{opacity:1;transform:none}
 .selo{position:absolute;right:-2%;top:-2%;width:30%;animation:gira 22s linear infinite}
 .selo text{font:800 12.5px Archivo;letter-spacing:.22em;fill:var(--creme)}
 .dia{position:absolute;left:-4%;bottom:12%;background:var(--bordo);color:var(--creme);border-radius:22px;padding:14px 20px;transform:rotate(-6deg);box-shadow:0 14px 30px rgba(0,0,0,.35);font-weight:800;line-height:1.15}
