@@ -104,8 +104,12 @@ new IntersectionObserver(([e])=>{if(e.isIntersecting&&!pausadoPeloUsuario)reel.p
 const xBox=document.getElementById('xic3d');
 if(document.documentElement.classList.contains('com3d')){
   const hf=xBox.parentElement;let pronto=false;
+  // abertura com a logo: fica no mínimo 1,6 s desde a abertura da página (para a animação ser vista) e some quando o 3D fica pronto
+  const ab=document.getElementById("abertura");let aberto=false;
+  const abre=()=>{if(aberto)return;aberto=true;setTimeout(()=>{ab.classList.add('sai');document.documentElement.classList.remove('abrindo');setTimeout(()=>ab.remove(),800)},Math.max(0,1600-performance.now()))};
+  new MutationObserver(()=>{if(hf.classList.contains('tem3d')||hf.classList.contains('sem3d'))abre()}).observe(hf,{attributes:true,attributeFilter:['class']});
   const reserva=()=>{if(!pronto)hf.classList.add('sem3d')};
-  setTimeout(reserva,8000); // conexão muito lenta: mostra a foto
+  setTimeout(reserva,8000); // conexão muito lenta: mostra a foto e abre o site
   import(new URL('xicara3d.js',SCRIPT_URL).href)
     .then(m=>m.montaXicara(xBox,{logo:'img/logo.webp'}))
     .then(()=>{pronto=true;hf.classList.remove('sem3d');hf.classList.add('tem3d')})
